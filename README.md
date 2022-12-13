@@ -1,4 +1,4 @@
-# AI-IMAGE 👨‍🏫
+# ![image](https://user-images.githubusercontent.com/106968663/193465348-dbefd28f-ec35-48e9-a105-24fa745e13ff.png) AI-IMAGE 👨‍🏫
 
 > This Web app that uses Node.js and OpenAI to generate automated images through SEO.
 > This is a simple image generator built with Node.js and Express that uses [OpenAI's Dall-E models](https://beta.openai.com/docs/guides/images) to generate images.
