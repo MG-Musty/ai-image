@@ -35,17 +35,59 @@ The Image generation does not allow erotic or pornographic search, it is censore
 
 Generate an API KEY at [OpenAI](https://beta.openai.com/) and add it to the `.env` file.
 
+*  Download (if you don`t have Node-Js from the website to your computer)
+
+```bash
+download node-js
+```
+
 * Install the dependencies
 
 ```bash
 npm install
 ```
 
-* Run server
+* Run commands (install package.son)
+
+```bash
+npm init -y
+```
+
+* Install (express and openai environment)
+
+```bash
+npm i express openai dotenv
+```
+
+* To keep server running (no need for update)
+
+```bash
+npm -D nodemon
+```
+
+* Then edit your package.json file.
+
+* To start the server run
+
+```bash
+npm run dev
+```
+
+* OR Run server
 
 ```bash
 npm start
 ```
+
+# Create an OpenAI API-KEY 
+* Create a file Example.env for the OpenAi API you have to follow;
+
+> You have to go to OpenAI site and create an account, after creating the account go to settings and check for key-creation and then you can copy your key and paste it at the API-Key in the env file. 
+
+> But when pushing it to github, you need to remove the key, cause is a secret key, which automatically OpenAI will dictate that your key is on public site and they will automatically disable the key, you have to create another one for the application to render. 
+
+> But on your local computer is safe and if you are to deploy the application on a hosting site, you need to put it in an environment variable where is not make visible for the third party to see. 
+> That's all you need to do. 
 
 # 📝 Author
 
