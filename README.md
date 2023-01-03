@@ -80,14 +80,17 @@ npm start
 ```
 
 # Create an OpenAI API-KEY 
-* Create a file Example.env for the OpenAi API you have to follow;
+* Create a file `Example.env` for the OpenAi API you have to follow;
 
-> You have to go to OpenAI site and create an account, after creating the account go to settings and check for key-creation and then you can copy your key and paste it at the API-Key in the env file. 
+> You have to go to [OpenAI](https://beta.openai.com/) and create an account, after creating the account go to settings and check for key-creation and then you can copy your key and paste it at the API-Key in the env file. 
 
 > But when pushing it to github, you need to remove the key, cause is a secret key, which automatically OpenAI will dictate that your key is on public site and they will automatically disable the key, you have to create another one for the application to render. 
 
 > But on your local computer is safe and if you are to deploy the application on a hosting site, you need to put it in an environment variable where is not make visible for the third party to see. 
-> That's all you need to do. 
+> That's all you need to do.
+
+# GoTo Browser paste
+`localhost5000` 
 
 # 📝 Author
 
