@@ -90,7 +90,7 @@ npm start
 > That's all you need to do.
 
 # GoTo Browser paste
-`localhost5000` 
+`localhost:5000` 
 
 # 📝 Author
 
